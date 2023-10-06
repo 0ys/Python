@@ -103,11 +103,8 @@ random_forest.score(X_train, Y_train) # 0.9820426487
 
 # k-nn
 knn = KNeighborsClassifier(n_neighbors = 3)
-
 knn.fit(X_train, Y_train)
-
 Y_pred = knn.predict(X_test)
-
 knn.score(X_train, Y_train) # 0.8350168350
 
 
