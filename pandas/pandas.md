@@ -34,6 +34,7 @@ df = pd.read_csv('example.csv')
 #### 간략한 정보 파악
 ```python
 df.info()
+df.describe()
 ```
 #### 데이터 조회
 ```python
